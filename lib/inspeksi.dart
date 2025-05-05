@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../main.dart';
+import '../penilaian_1.dart';
 
 class HasilInspeksiPage extends StatefulWidget {
   const HasilInspeksiPage({super.key});
@@ -303,7 +304,14 @@ class _HasilInspeksiPageState extends State<HasilInspeksiPage> {
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.orange,
                       ),
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const Penilaian1(),
+                          ),
+                        );
+                      },
                       child: const Text("Next"),
                     ),
                   ),

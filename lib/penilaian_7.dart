@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'templatePenilaianPage.dart';
-import 'inspection_step12_photo_page.dart';
+import 'inspection_step12.dart';
 
 class Penilaian7 extends StatefulWidget {
   const Penilaian7({super.key});
